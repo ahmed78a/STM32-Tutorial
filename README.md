@@ -7,10 +7,10 @@ Collection for simple projects to learn more about the STM32.
 This project is designed to blink an LED Light.
 
 ### Timer
-
+Access the internal timer on the STM32.
 
 ### LCD
-
+Display information on a 16X2 LCD display.
 
 
 
