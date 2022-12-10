@@ -1,6 +1,8 @@
 # STM32-Tutorial
 Collection for simple projects to learn more about the STM32.
 
+![alt text](https://www.elliottelectronicsupply.com/media/catalog/product/cache/761b8bdecfdca96cdc8841a1a603f814/m/e/media-import-pictures-0000000040438_Def.jpg)
+
 ## Project Directory
 
 ### 1. Traffic_Light
@@ -28,7 +30,27 @@ This project is similar to that of 6a, but the main difference is that this proj
 
 ### 8. PWM_Mode
 
+### 9. DWT_Delay_and_Timer_Delay
 
+### 10. LCD_Button
+
+### 11. DMA_interupt_polling
+
+### 12a. nmr2
+
+### 12b. ADC_1st_test
+
+### 12c. BARISTA_Timers
+
+### 13. ADC_Temp
+
+### 14. LCD_ADC
+
+### 15. Speed_Test2
+
+### 16 Timer_1Sec_Interupt
+
+### 17. Timer_Interupt_and_ADC_Speed_Test
 
 
 #### Special thanks to Khaled Magdy from DeepBlueMbedded for providing the tutorials.
