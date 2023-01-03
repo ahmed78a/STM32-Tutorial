@@ -39,19 +39,19 @@ This project demenstrartes the speed of which the STM32F411RET6 can work on. By 
 In this project an LCD is connected to the STM that will display the state of the button that is also connected to the STM, if the button was released it will display "Released", and if it was pressed it will display "Pressed"
 
 ### 11-DMA_interupt_polling
-
+This project uses an DMA interupt to take in values from the sensor and convert it to difital value using the adc in the stm32 at sepicific times regardles of the situation of the code.
 
 ### 12a-1st_ADC_attempt
 
 
 ### 12b-ADC_1st_test
-
+This project was the 1st successful attemp for an adc, even though the values were not accurate but the code was working.
 
 ### 12c-BARISTA_Timers
-
+This project is the fully functioning version of the stm32 adc code.
 
 ### 13-ADC_Temp
-
+This prject attempts to take in values from the temperature sensor and convert the collected voltage value to a readable value of °C.
 
 ### 14-LCD_ADC
 This project is similar to that od the LCD_Button, but using what we learned from that and from the ADC and combining the both. The LCD will display the value that the sensor collects.
@@ -60,10 +60,10 @@ This project is similar to that od the LCD_Button, but using what we learned fro
 This project is done to calculate how fast the ADC of the STM32 can work at. by setting a specific time were the code can run for, and adding a counter. It is possible to mathmatically calculate how fast can the STM32 convert values.
 
 ### 16-Timer_1Sec_Interupt
-This project we set an external time that will excecute a command each second regardless of the 
+This project we set an external time that will excecute a command each second regardless of the code's situation. 
 
 ### 17-Timer_Interupt_and_ADC_Speed_Test
-
+This code uses the timer interrupt of 1 second to see how many adc values are collected through that 1 sec, by having the time taken for the values to be collected and the number of total values collected we can then calculate the speed of which the stm32's adc work at.
 
 #### Special thanks to Khaled Magdy from DeepBlueMbedded for providing the tutorials.
 Go to the following link for more information:
